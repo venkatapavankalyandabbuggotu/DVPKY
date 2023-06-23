@@ -24,8 +24,8 @@
         <img src="./IMG_20230621_010331-removebg-preview.png" alt="">
         <div class="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./services.html">Services</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Jobs</a></li>
                 <li><a href="#">About</a></li>
@@ -92,7 +92,7 @@
                 <h4>Dabbugottu venkata pavan kalyan</h4>
                 <p class="p">Web Developer & Android developer</p>
                 <div class="pro-link">
-                    <a href="Not Available" target="_blank" class="fa fa-facebook"></a>
+                    <a href="#" target="_blank" class="fa fa-facebook"></a>
                     <a href="https://instagram.com/dabbugottu_venkatapavankalyan?igshid=MzNlNGNkZWQ4Mg=="
                         target="_blank" class="fa fa-instagram"></a>
                     <a href="https://www.linkedin.com/in/venkata-pavan-kalyan-dabbugottu-318922256" target="_blank"
@@ -145,7 +145,7 @@
 
     <div class="feedback">
         <section>
-            <form onsubmit=" sendEmail(); reset(); return false;">
+            <form onsubmit="sendEmail(); reset(); return false;">
                 <h1>GET IN TOUCH</h1>
                 <input type="text" id="name" placeholder="Your Name" required>
                 <input type="email" id="email" placeholder="Email id" required>
@@ -155,14 +155,15 @@
             </form>
         </section>
 
-    </div>
-    <script src=" https://smtpjs.com/v3/smtp.js"></script>
 
+
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
         function sendEmail() {
             Email.send({
-                Host: "smtp.gmail.com",
-                Username: "venkatapavankalyandabbugottu@gmail.com",
+                Host: "smtps.gmail.com",
+                Username: "pavankalyan2001.dv@gmail.com",
                 Password: "P@v@n668652@",
                 To: 'venkatapavankalyandabbugottu@gmail.com',
                 From: document.getElementById("email").value,
